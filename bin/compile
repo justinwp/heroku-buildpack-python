@@ -233,6 +233,9 @@ bpwatch stop pylibmc_install
 # libffi support.
 source $BIN_DIR/steps/libffi
 
+# Numpy/scipy support
+source $BIN_DIR/steps/numpy-scipy
+
 # geographic support
 source $BIN_DIR/steps/geolibs
 
